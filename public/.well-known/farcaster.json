@@ -1,18 +1,17 @@
 {
+  "name": "Crypto Snakes",
+  "description": "Lightweight Snakes and Ladders game for Farcaster",
+  "icon": "https://newstgl29sep-1.vercel.app/icon.png",
+  "splash": "https://newstgl29sep-1.vercel.app/splash.png",
+  "homepage": "https://newstgl29sep-1.vercel.app",
   "accountAssociation": {
     "header": "eyJmaWQiOjI5OTM5NSwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDQxQTBlMTNjMzdCOWRCNzgwMzIzMEQ0NjA4Mjc2MDczMEJiNDIxM2YifQ",
     "payload": "eyJkb21haW4iOiJuZXdzdGdsMjlzZXAtMS52ZXJjZWwuYXBwIn0",
     "signature": "MHgxMGFkNzMyOWEyMWIzN2VjMmMzODk0ZDU4OTBmYjg0ZTllNDFlMzAxNTljYWM4MjA0MzJlZDU3MDVhMmYyYjg0MWIxOGY3YTA2MzhlMDFiMmM2ZTQ5YWE3YjdiNmY3OGQ4OGYwM2M2OTk5MGU1ZTUxYTA4NmNmZWEyNDA4NmEyMjFi"
   },
   "frame": {
-    "version": "1",
-    "name": "Example Frame",
-    "iconUrl": "https://newstgl29sep-1.vercel.app/icon.png",
-    "homeUrl": "https://newstgl29sep-1.vercel.app",
-    "imageUrl": "https://newstgl29sep-1.vercel.app/image.png",
-    "buttonTitle": "Check this out",
-    "splashImageUrl": "https://newstgl29sep-1.vercel.app/splash.png",
-    "splashBackgroundColor": "#eeccff",
-    "webhookUrl": "https://newstgl29sep-1.vercel.app/api/webhook"
+    "version": "0.0.0",
+    "start": "https://newstgl29sep-1.vercel.app",
+    "postUrl": "https://newstgl29sep-1.vercel.app/api/frame"
   }
 }
