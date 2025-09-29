@@ -17,6 +17,11 @@ export default async function handler(req, res) {
           target: "https://newstgl29sep-1.vercel.app/api/frame"
         },
         {
+          label: "🏆 Leaderboard",
+          action: "post",
+          target: "https://newstgl29sep-1.vercel.app/api/leaderboard"
+        },
+        {
           label: "🌐 Play Full Game",
           action: "link",
           target: "https://newstgl29sep-1.vercel.app/game"
