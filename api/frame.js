@@ -5,6 +5,7 @@ export default async function handler(req, res) {
 
   const roll = Math.floor(Math.random() * 6) + 1;
 
+  res.setHeader("Content-Type", "application/json");
   res.status(200).json({
     frame: {
       version: "0.0.0",
@@ -14,11 +15,6 @@ export default async function handler(req, res) {
           label: "🎲 Roll Again",
           action: "post",
           target: "https://newstgl29sep-1.vercel.app/api/frame"
-        },
-        {
-          label: "🏆 Leaderboard",
-          action: "post",
-          target: "https://newstgl29sep-1.vercel.app/api/leaderboard"
         },
         {
           label: "🌐 Play Full Game",
