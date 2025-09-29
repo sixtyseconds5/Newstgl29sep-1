@@ -11,6 +11,10 @@
   },
   "frame": {
     "version": "0.0.0",
+    "name": "Crypto Snakes Frame",
+    "iconUrl": "https://newstgl29sep-1.vercel.app/icon.png",
+    "splashUrl": "https://newstgl29sep-1.vercel.app/splash.png",
+    "homepage": "https://newstgl29sep-1.vercel.app",
     "start": "https://newstgl29sep-1.vercel.app",
     "postUrl": "https://newstgl29sep-1.vercel.app/api/frame"
   }
